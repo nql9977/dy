@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="渡月DUYUE B3彩色数字变体">
+  <defs>
+    <clipPath id="d"><path d="M88 68H236C360 68 432 141 432 256S360 444 236 444H88Z"/></clipPath>
+    <mask id="cut"><rect width="512" height="512" fill="white"/><path d="M154 62L260 252L360 94M260 252V458" fill="none" stroke="black" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/></mask>
+  </defs>
+  <g clip-path="url(#d)" mask="url(#cut)">
+    <rect x="70" y="50" width="390" height="412" fill="#173A33"/>
+    <path d="M154 48H236C290 48 331 64 360 94L260 252L154 62Z" fill="#89958B"/>
+    <path d="M360 94C412 133 442 190 442 256C442 379 365 458 232 458H260V252Z" fill="#A84A35"/>
+  </g>
+</svg>

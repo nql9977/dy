@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 250" role="img" aria-labelledby="t d">
+  <title id="t">渡月 AI 教育横版标志</title><desc id="d">图形标志、DUYUE字标与渡月AI教育说明</desc>
+  <g transform="translate(20 0) scale(.95)"><path d="M190 51A88 88 0 1 1 64 198" fill="none" stroke="#0a0d0e" stroke-width="25" stroke-linecap="round"/><path d="M52 185C82 175 92 151 116 134c29-21 34-57 76-78" fill="none" stroke="#28d3ca" stroke-width="11" stroke-linecap="round"/><g fill="#f1fffc" stroke="#28d3ca" stroke-width="5"><circle cx="78" cy="171" r="11"/><circle cx="119" cy="131" r="13"/><circle cx="166" cy="79" r="11"/></g><circle cx="195" cy="53" r="10" fill="#28d3ca"/></g>
+  <g transform="translate(286 28) scale(.93)" fill="none" stroke="#0a0d0e" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20v110h34c48 0 48-110 0-110H18"/><path d="M138 20v69c0 30 19 43 42 43s42-13 42-43V20"/><path d="m274 20 43 55 43-55M317 75v57"/><path d="M408 20v69c0 30 19 43 42 43s42-13 42-43V20"/><path d="M548 20v112m0-112h80m-80 55h67m-67 57h80"/></g>
+  <text x="304" y="212" fill="#0a0d0e" font-family="Noto Sans SC,Microsoft YaHei,sans-serif" font-size="25" font-weight="700" letter-spacing="3">渡月 · AI EDUCATION</text>
+</svg>

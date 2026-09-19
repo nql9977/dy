@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="渡月DUYUE B1彩色标准母标">
+  <defs>
+    <clipPath id="d"><path d="M88 68H236C360 68 432 141 432 256S360 444 236 444H88Z"/></clipPath>
+    <mask id="cut"><rect width="512" height="512" fill="white"/><path d="M158 68L260 252L354 94M260 252V452" fill="none" stroke="black" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></mask>
+  </defs>
+  <g clip-path="url(#d)" mask="url(#cut)">
+    <rect x="70" y="50" width="390" height="412" fill="#173A33"/>
+    <path d="M158 50H236C288 50 326 65 354 94L260 252L158 68Z" fill="#89958B"/>
+    <path d="M354 94C407 132 438 190 438 256C438 376 362 454 236 454H260V252Z" fill="#A84A35"/>
+  </g>
+  <path d="M88 68H236C360 68 432 141 432 256S360 444 236 444H88Z" fill="none" stroke="#101826" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="260" cy="252" r="10" fill="#B88A45"/>
+</svg>
