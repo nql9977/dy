@@ -15,7 +15,7 @@
       if (opening) return;
       opening = true;
       door.classList.add('is-opening');
-      setTimeout(() => location.assign(door.href), 600);
+      setTimeout(() => location.assign(door.href), 180);
     });
   });
   addEventListener('pageshow', () => { opening = false; gateway.querySelectorAll('.is-opening').forEach(door => door.classList.remove('is-opening')); });

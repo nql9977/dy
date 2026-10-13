@@ -48,6 +48,16 @@ if (root && !root.dataset.educationReady) {
     return url;
   };
   const dialog = root.querySelector('#education-enrollment');
+  const serviceDialog = root.querySelector('#ai-services-contact');
+  let serviceTrigger;
+  root.querySelectorAll('[data-service-enroll]').forEach(button => button.addEventListener('click', () => {
+    serviceTrigger = button;
+    const interest = serviceDialog?.querySelector('[data-service-interest]');
+    if (interest) interest.textContent = button.dataset.serviceEnroll;
+    serviceDialog?.showModal();
+  }));
+  serviceDialog?.addEventListener('close', () => serviceTrigger?.focus());
+  serviceDialog?.addEventListener('click', event => { if (event.target === serviceDialog) serviceDialog.close(); });
   let enrollmentTrigger;
   root.querySelectorAll('[data-enroll]').forEach(button => button.addEventListener('click', () => {
     enrollmentTrigger = button;
@@ -85,7 +95,7 @@ if (root && !root.dataset.educationReady) {
         if (player) {
           dialog?.close();
           player.unlock();
-        } else location.href = new URL('ai-education/learn/', siteBase).href;
+        } else location.href = new URL(root.dataset.courseLearningPath || 'psychology/learn/', siteBase).href;
       }
     } catch { status.textContent = '暂时无法连接课程服务，请稍后重试或联系渡月。'; }
     finally { button.disabled = false; }
